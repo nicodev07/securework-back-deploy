@@ -1,0 +1,269 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>securework-back</name>
+    </assembly>
+    <members>
+        <member name="P:securework_back.Models.IngresarActividad.FechaActividad">
+            <example>2022-10-23</example>
+        </member>
+        <member name="P:securework_back.Models.IngresarActividad.Descripcion">
+            <example>Actividad test 001</example>
+        </member>
+        <member name="P:securework_back.Models.IngresarActividad.DocumentoB64">
+            <example></example>
+        </member>
+        <member name="P:securework_back.Models.IngresarActividad.IdVisita">
+            <example>1</example>
+        </member>
+        <member name="P:securework_back.Models.IngresarAlerta.FechaAccidente">
+            <example>2022-10-18 17:45:00</example>
+        </member>
+        <member name="P:securework_back.Models.IngresarAlerta.Descripcion">
+            <example>Se notifica accidente ocurrido hoy 18-10-2022 a las 14:45 hrs</example>
+        </member>
+        <member name="P:securework_back.Models.IngresarAlerta.IdCliente">
+            <example>cbd92e52-2775-411d-92cf-f29144120eac</example>
+        </member>
+        <member name="P:securework_back.Models.GetAlertasReq.IdProfesional">
+            <example>14</example>
+        </member>
+        <member name="P:securework_back.Models.GetAlertasReq.IdCliente">
+            <example>cbd92e52-2775-411d-92cf-f29144120eac</example>
+        </member>
+        <member name="P:securework_back.Models.IngresarAsesoria.FechaIngreso">
+            <example>2022-10-18 17:45:00</example>
+        </member>
+        <member name="P:securework_back.Models.IngresarAsesoria.DocumentoB64">
+            <example></example>
+        </member>
+        <member name="P:securework_back.Models.IngresarAsesoria.IdProfesional">
+            <example>2</example>
+        </member>
+        <member name="P:securework_back.Models.IngresarAsesoria.IdCliente">
+            <example>cbd92e52-2775-411d-92cf-f29144120eac</example>
+        </member>
+        <member name="P:securework_back.Models.IngresarAsesoriaEsp.FechaIngreso">
+            <example>2022-10-18 17:45:00</example>
+        </member>
+        <member name="P:securework_back.Models.IngresarAsesoriaEsp.DocumentoB64">
+            <example></example>
+        </member>
+        <member name="P:securework_back.Models.IngresarAsesoriaEsp.IdCliente">
+            <example>cbd92e52-2775-411d-92cf-f29144120eac</example>
+        </member>
+        <member name="P:securework_back.Models.GetAsesoriasReq.IdProfesional">
+            <example>2</example>
+        </member>
+        <member name="P:securework_back.Models.GetAsesoriasReq.IdCliente">
+            <example>cbd92e52-2775-411d-92cf-f29144120eac</example>
+        </member>
+        <member name="P:securework_back.Models.LoginRequest.Rut">
+            <example>18905148-4</example>
+        </member>
+        <member name="P:securework_back.Models.LoginRequest.Password">
+            <example></example>
+        </member>
+        <member name="P:securework_back.Models.CrearCapacitacion.FechaCapacitacion">
+            <example>2022-10-31 10:30:00</example>
+        </member>
+        <member name="P:securework_back.Models.CrearCapacitacion.Descripcion">
+            <example>Capacitación Octubre 2022</example>
+        </member>
+        <member name="P:securework_back.Models.CrearCapacitacion.Asistentes">
+            <example>40</example>
+        </member>
+        <member name="P:securework_back.Models.CrearCapacitacion.IdProfesional">
+            <example>2</example>
+        </member>
+        <member name="P:securework_back.Models.CrearCapacitacion.IdCliente">
+            <example>cbd92e52-2775-411d-92cf-f29144120eac</example>
+        </member>
+        <member name="P:securework_back.Models.GetCapacitacionesReq.IdProfesional">
+            <example>2</example>
+        </member>
+        <member name="P:securework_back.Models.GetCapacitacionesReq.IdCliente">
+            <example>cbd92e52-2775-411d-92cf-f29144120eac</example>
+        </member>
+        <member name="P:securework_back.Models.CrearCasoAsesoria.Descripcion">
+            <example>Ingreso de caso de asesoría</example>
+        </member>
+        <member name="P:securework_back.Models.CrearCasoAsesoria.FechaIngreso">
+            <example>2022-11-20</example>
+        </member>
+        <member name="P:securework_back.Models.CrearCasoAsesoria.DocumentoB64">
+            <example></example>
+        </member>
+        <member name="P:securework_back.Models.CrearCasoAsesoria.IdAlerta">
+            <example>1</example>
+        </member>
+        <member name="P:securework_back.Models.CrearChecklist.Descripcion">
+            <example>Checklist 001 cliente corporación minera</example>
+        </member>
+        <member name="P:securework_back.Models.CrearChecklist.DocumentoB64">
+            <example></example>
+        </member>
+        <member name="P:securework_back.Models.CrearChecklist.IdProfesional">
+            <example>2</example>
+        </member>
+        <member name="P:securework_back.Models.CrearChecklist.IdCliente">
+            <example>cbd92e52-2775-411d-92cf-f29144120eac</example>
+        </member>
+        <member name="P:securework_back.Models.ResponderChecklist.IdChecklist">
+            <example>1</example>
+        </member>
+        <member name="P:securework_back.Models.ResponderChecklist.Descripcion">
+            <example>Checklist 001 cliente corporación minera - Aprobado</example>
+        </member>
+        <member name="P:securework_back.Models.ResponderChecklist.DocumentoB64">
+            <example></example>
+        </member>
+        <member name="P:securework_back.Models.ResponderChecklist.IdEstado">
+            <example>2</example>
+        </member>
+        <member name="P:securework_back.Models.CrearContrato.IdCliente">
+            <example>cbd92e52-2775-411d-92cf-f29144120eac</example>
+        </member>
+        <member name="P:securework_back.Models.CrearContrato.Descripcion">
+            <example>Contrato de prestación de servicios</example>
+        </member>
+        <member name="P:securework_back.Models.CrearContrato.FechaInicio">
+            <example>2022-09-01</example>
+        </member>
+        <member name="P:securework_back.Models.CrearContrato.FechaTermino">
+            <example>2023-09-01</example>
+        </member>
+        <member name="P:securework_back.Models.CrearContrato.ContratoB64">
+            <example></example>
+        </member>
+        <member name="P:securework_back.Models.CreaCustomerModel.RazonSocial">
+            <example>Corporación Minera</example>
+        </member>
+        <member name="P:securework_back.Models.CreaCustomerModel.Rut">
+            <example>99019572-2</example>
+        </member>
+        <member name="P:securework_back.Models.CreaCustomerModel.Direccion">
+            <example>Zorondo</example>
+        </member>
+        <member name="P:securework_back.Models.CreaCustomerModel.Telefono">
+            <example>+56228375867</example>
+        </member>
+        <member name="P:securework_back.Models.CreaCustomerModel.Email">
+            <example>admin@corpminera.cl</example>
+        </member>
+        <member name="P:securework_back.Models.CreaCustomerModel.IdComuna">
+            <example>2</example>
+        </member>
+        <member name="P:securework_back.Models.CreaCustomerModel.IdContrato">
+            <example>null</example>
+        </member>
+        <member name="P:securework_back.Models.UpdateCustomerModel.IdCliente">
+            <example>cbd92e52-2775-411d-92cf-f29144120eac</example>
+        </member>
+        <member name="P:securework_back.Models.UpdateCustomerModel.RazonSocial">
+            <example>Corporación Minera JR</example>
+        </member>
+        <member name="P:securework_back.Models.UpdateCustomerModel.Direccion">
+            <example>Calle 20</example>
+        </member>
+        <member name="P:securework_back.Models.UpdateCustomerModel.Telefono">
+            <example>+56228374657</example>
+        </member>
+        <member name="P:securework_back.Models.UpdateCustomerModel.Email">
+            <example>test@email.com</example>
+        </member>
+        <member name="P:securework_back.Models.UpdateCustomerModel.IdComuna">
+            <example>5</example>
+        </member>
+        <member name="P:securework_back.Models.UpdateCustomerModel.IdContrato">
+            <example>null</example>
+        </member>
+        <member name="P:securework_back.Models.UpdateCustomerModel.Status">
+            <example>0</example>
+        </member>
+        <member name="P:securework_back.Models.CreaUserModel.Nombre">
+            <example>Elizabeth</example>
+        </member>
+        <member name="P:securework_back.Models.CreaUserModel.Rut">
+            <example>18276170-2</example>
+        </member>
+        <member name="P:securework_back.Models.CreaUserModel.APaterno">
+            <example>Zorondo</example>
+        </member>
+        <member name="P:securework_back.Models.CreaUserModel.AMaterno">
+            <example>Vergara</example>
+        </member>
+        <member name="P:securework_back.Models.CreaUserModel.Password">
+            <example>passwordSegura</example>
+        </member>
+        <member name="P:securework_back.Models.CreaUserModel.Email">
+            <example>test@email.com</example>
+        </member>
+        <member name="P:securework_back.Models.CreaUserModel.Telefono">
+            <example>+56123456789</example>
+        </member>
+        <member name="P:securework_back.Models.CreaUserModel.IdPerfil">
+            <example>3</example>
+        </member>
+        <member name="P:securework_back.Models.UpdateUserModel.IdUsuario">
+            <example>2</example>
+        </member>
+        <member name="P:securework_back.Models.UpdateUserModel.Nombre">
+            <example>Elizabeth</example>
+        </member>
+        <member name="P:securework_back.Models.UpdateUserModel.Rut">
+            <example>18276170-2</example>
+        </member>
+        <member name="P:securework_back.Models.UpdateUserModel.APaterno">
+            <example>Zorondo</example>
+        </member>
+        <member name="P:securework_back.Models.UpdateUserModel.AMaterno">
+            <example>Vergara</example>
+        </member>
+        <member name="P:securework_back.Models.UpdateUserModel.Email">
+            <example>test@email.com</example>
+        </member>
+        <member name="P:securework_back.Models.UpdateUserModel.Telefono">
+            <example>+56123456743</example>
+        </member>
+        <member name="P:securework_back.Models.UpdateUserModel.IdPerfil">
+            <example>2</example>
+        </member>
+        <member name="P:securework_back.Models.UpdateUserModel.Status">
+            <example>0</example>
+        </member>
+        <member name="P:securework_back.Models.CrearVisita.FechaVisita">
+            <example>2022-12-15 15:00:00</example>
+        </member>
+        <member name="P:securework_back.Models.CrearVisita.Descripcion">
+            <example>Visita 15-12-2022 09:00 hrs</example>
+        </member>
+        <member name="P:securework_back.Models.CrearVisita.IdProfesional">
+            <example>2</example>
+        </member>
+        <member name="P:securework_back.Models.CrearVisita.IdCliente">
+            <example>cbd92e52-2775-411d-92cf-f29144120eac</example>
+        </member>
+        <member name="P:securework_back.Models.GetVisitaReq.IdProfesional">
+            <example>2</example>
+        </member>
+        <member name="P:securework_back.Models.GetVisitaReq.IdCliente">
+            <example>cbd92e52-2775-411d-92cf-f29144120eac</example>
+        </member>
+        <member name="M:securework_back.Utils.RutValidator.ValidaRut(System.String,System.String)">
+            <summary>
+            Método que valida el rut con el digito verificador por separado
+            </summary>
+            <param name="rut"></param>
+            <param name="dv"></param>
+            <returns></returns>
+        </member>
+        <member name="M:securework_back.Utils.RutValidator.ValidaRut(System.String)">
+            <summary>
+            Metodo de validación de rut con digito verificador dentro de la cadena (ej: 1-9)
+            </summary>
+            <param name="rut"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
